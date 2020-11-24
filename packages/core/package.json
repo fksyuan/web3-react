@@ -1,15 +1,15 @@
 {
-  "name": "@web3-react/core",
+  "name": "@fksyuan/core",
   "publishConfig": {
     "access": "public"
   },
   "version": "6.1.1",
-  "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
+  "description": "A simple, maximally extensible, dependency minimized framework for building modern Alaya dApps",
   "keywords": [
     "react",
     "react-hooks",
     "hooks",
-    "ethereum",
+    "alaya",
     "javascript",
     "typescript",
     "web3",
@@ -20,7 +20,7 @@
   "author": "Noah Zinsmeister <noahwz@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/NoahZinsmeister/web3-react.git"
+    "url": "git://github.com/fksyuan/web3-react.git"
   },
   "main": "dist/index.js",
   "module": "dist/core.esm.js",
@@ -39,7 +39,8 @@
     "@web3-react/abstract-connector": "^6.0.7",
     "@web3-react/types": "^6.0.7",
     "tiny-invariant": "^1.0.6",
-    "tiny-warning": "^1.0.3"
+    "tiny-warning": "^1.0.3",
+    "@alayanetwork/ethereumjs-util": "^5.2.1"
   },
   "peerDependencies": {
     "react": ">=16.8"
