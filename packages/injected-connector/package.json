@@ -1,27 +1,27 @@
 {
-  "name": "@web3-react/injected-connector",
+  "name": "@fksyuan/injected-connector",
   "publishConfig": {
     "access": "public"
   },
   "version": "6.0.7",
-  "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
+  "description": "A simple, maximally extensible, dependency minimized framework for building modern Alaya dApps",
   "keywords": [
     "react",
     "react-hooks",
     "hooks",
-    "ethereum",
+    "alaya",
     "javascript",
     "typescript",
     "web3",
     "context",
     "frontend",
     "dapp",
-    "metamask"
+    "samurai"
   ],
   "author": "Noah Zinsmeister <noahwz@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/NoahZinsmeister/web3-react.git"
+    "url": "git://github.com/fksyuan/web3-react.git"
   },
   "main": "dist/index.js",
   "module": "dist/injected-connector.esm.js",
