@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "6.1.1",
+  "version": "6.1.2",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern Alaya dApps",
   "keywords": [
     "react",
@@ -40,7 +40,7 @@
     "@web3-react/types": "^6.0.7",
     "tiny-invariant": "^1.0.6",
     "tiny-warning": "^1.0.3",
-    "@alayanetwork/ethereumjs-util": "^5.2.1"
+    "@alayanetwork/web3-utils": "^0.13.2"
   },
   "peerDependencies": {
     "react": ">=16.8"

@@ -1,7 +1,7 @@
 import { arrayify } from '@ethersproject/bytes'
 import { keccak256 } from '@ethersproject/keccak256'
 import invariant from 'tiny-invariant'
-import {isBech32Address} from '@alayanetwork/ethereumjs-util'
+import {isBech32Address} from '@alayanetwork/web3-utils'
 
 export function normalizeChainId(chainId: string | number): number {
   if (typeof chainId === 'string') {

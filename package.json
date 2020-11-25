@@ -1,6 +1,7 @@
 {
-  "private": true,
+  "private": false,
   "name": "fksyuan",
+  "version": "6.1.1",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
   "keywords": [
     "react",
